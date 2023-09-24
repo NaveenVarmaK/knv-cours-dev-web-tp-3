@@ -1,0 +1,245 @@
+body {
+  background-color: #ebebeb;
+}
+
+.webpage {
+  margin: auto;
+  width: 1070px;
+  position: relative;
+  height: auto;
+}
+
+.navbar {
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+  text-align-last: auto;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  height: auto;
+  width: 1070px;
+  margin: auto;
+  position: relative;
+  border-radius: 10px;
+}
+
+.topnav {
+  margin-block: 15px;
+  align-items: auto;
+  display: flex;
+  background-color: #ffffff;
+}
+
+.logo {
+  padding: 5px;
+  padding-left: 15px;
+  max-width: 180px;
+  max-height: 75px;
+  align-items: left;
+}
+
+.nav-items {
+  border-radius: 10px;
+  color: black;
+  align-items: center;
+  display: flex;
+  align-items: left;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.nav-item:hover {
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+.nav-items .nav-item {
+  flex-direction: row-reverse;
+  text-align: center;
+  width: 70px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.authentication {
+  margin-left: 290px;
+  align-items: right;
+  padding: 2px;
+  display: flex;
+}
+
+#authenticate {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.authentication .aitem {
+  text-align: center;
+  margin-left: 15px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  background-color: #72ac51;
+  border-radius: 25px;
+  font-family: sans-serif;
+
+}
+
+.aitem a {
+  text-decoration: none;
+  color: white;
+}
+
+.aitem:hover {
+  background-color: #47752d;
+}
+
+.categories {
+  box-shadow: 0 10px 10px 0 rgba(2, 2, 2, 0.2);
+  margin-top: 20px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.category {
+  font-family: sans-serif;
+  background-color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  padding: 20px;
+  height: 25px;
+  font-weight: bold;
+}
+
+.category a {
+  text-decoration: none;
+  color: black;
+}
+
+.categories #abouttext a {
+  color: white;
+}
+
+.categories #abouttext {
+  background-color: #72ac51;
+}
+.category:hover{
+  background-color: #72ac51;
+  color: white;
+}
+
+.about {
+  font-family: sans-serif;
+  width: auto;
+  display: flex;
+  font-size: 36px;
+}
+
+.details {
+  block-size: 150px;
+  writing-mode: horizontal-tb;
+  color: #565656;
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  width: auto;
+  height: auto;
+  font-size: 36px;
+}
+
+.companymission {
+  margin-bottom:0px;
+  flex-direction: row-reverse;
+  display: flex;
+  font-size: 20px;
+}
+
+.company {
+  font-family: sans-serif;
+  width: 35%;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 10px 10px 0 rgba(2, 2, 2, 0.2);
+}
+
+.mission {
+  font-family: sans-serif;
+  margin-right: 30px;
+  width: 35%;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 10px 10px 0 rgba(2, 2, 2, 0.2);
+}
+
+.companymission-text {
+  padding: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.companymission-statement {
+  padding: 30px;
+  font-size: 15px;
+}
+
+.company-img img {
+  position: static;
+  height: auto;
+  width: 100%;
+}
+
+.mission-img img {
+  height: auto;
+  width: 100%;
+}
+
+
+.login-credentials{
+  position:relative;
+  margin-top:100px;
+  margin-left:250px;
+  margin-right:auto;
+  width:570px;
+  background-color:#ffffff;
+  box-shadow: 0 10px 10px 0 rgba(2, 2, 2, 0.2);
+  border-radius: 5px;
+}
+
+.login-stuff{
+  padding-left:60px;
+  padding-right:60px;
+  padding-top:67px;
+  padding-bottom:60px;
+  font-size: 32px;
+  font-family: sans-serif;
+}
+
+#Email {
+  font-size: 16px;
+  height:45px;
+  width:450px;
+
+}
+#Password{
+  font-size: 16px;
+  height:45px;
+  width:450px;
+}
+#Button{
+  color:#ebebeb;
+  text-decoration: none;
+  border:none;
+  width:450px;
+  height:42px;
+  background-color: #72ac51;
+  border-radius:20px;
+}
