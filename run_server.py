@@ -54,7 +54,7 @@ class S(SimpleHTTPRequestHandler):
                 {}
             """.format(self.path, post_data.decode('utf-8')).encode('utf-8'))
 
-def run(server_class=HTTPServer, handler_class=S, port=8002):
+def run(server_class=HTTPServer, handler_class=S, port=8000):
     logging.basicConfig(level=logging.INFO)
     server_address = ('', port)
     httpd = server_class(server_address, handler_class)

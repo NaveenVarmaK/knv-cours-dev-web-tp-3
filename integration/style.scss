@@ -1,12 +1,17 @@
+//This only applied to the body of the login and about page
+
 body {
   background-color: #ebebeb;
 }
+
 
 .without-navbar {
   margin: auto;
   width: 1070px;
   position: relative;
 }
+
+//form here it is Navbar Implementation
 
 .navbar {
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
@@ -24,6 +29,12 @@ body {
   display: flex;
   width:1070px;
   background-color: #ffffff;
+}
+.logo img {
+  
+  width: 180px;
+  height:auto;
+  
 }
 
 .logo {
@@ -98,6 +109,8 @@ body {
 .aitem:hover {
   background-color: #47752d;
 }
+
+//from here it was dedicated for the without navbar implementation
 
 .categories {
   box-shadow: 0 10px 10px 0 rgba(2, 2, 2, 0.2);
@@ -201,6 +214,8 @@ body {
   width: 100%;
 }
 
+//From Here it will be dedicated to the login page implementation
+
 .login-credentials {
   position: relative;
   margin-top: 100px;
@@ -219,18 +234,21 @@ body {
   padding-bottom: 60px;
   font-size: 32px;
   font-family: sans-serif;
+  border-radius: 5px;
 }
 
 #Email {
   font-size: 16px;
   height: 45px;
   width: 450px;
+  border-radius: 5px;
 }
 
 #Password {
   font-size: 16px;
   height: 45px;
   width: 450px;
+  border-radius: 5px;
 }
 
 #Button {
@@ -239,8 +257,37 @@ body {
   border: none;
   width: 450px;
   height: 42px;
-  background-color: #72ac51;
+  background-color: hsl(98, 36%, 50%);
   border-radius: 20px;
+  font-size: 14px;
 }
 
-/*# sourceMappingURL=style.css.map */
+
+//From Here it will be dedicated to the text boxes color implementation
+
+
+input[type="email"]:required{
+  border: 1px solid grey;
+  outline:none;
+}
+input[type="password"]:required {
+  border: 1px solid grey;
+  outline:none;
+}
+input[type="email"]:focus {
+  border: solid red;
+  outline:none;
+}
+input[type="email"]:focus:valid {
+  border:  solid hsl(98, 36%, 50%);
+  outline:none;
+}
+input[type=password]:focus{
+  border:  solid red;
+  outline:none;
+}
+input[type="password"]:valid {
+  border:  solid hsl(98, 36%, 50%);
+  outline:none;
+}
+
